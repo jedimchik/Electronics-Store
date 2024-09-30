@@ -1,0 +1,59 @@
+.AddedItemCard {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 170px;
+  padding: 10px;
+  column-gap: 10px;
+}
+
+.info1,
+.info2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info2 {
+  min-width: 110px;
+  align-items: end;
+}
+
+.info1 p {
+  width: 100%;
+}
+
+.info1 button {
+  width: 40px;
+}
+
+.info2 button {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info2 button img {
+  height: 15px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.quantityBlock {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.AddedItemCard img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.disabled {
+  background-color: rgba(24, 119, 39, 1);
+}

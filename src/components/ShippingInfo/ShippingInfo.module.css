@@ -1,0 +1,38 @@
+.shippingInfoForm {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 630px;
+  border-radius: 8px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding: 50px;
+}
+
+.regionSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+.regionSection div {
+  /* background-color: red; */
+  width: 250px;
+  height: 100px;
+}
+
+.zipBlock {
+  width: 10px;
+}
+
+.submitBtn {
+  background-color: rgba(0, 174, 28, 1);
+  width: 150px;
+  min-height: 36px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

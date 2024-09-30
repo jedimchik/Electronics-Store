@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+.summaryPage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-inline: 240px;
+  padding-block: 30px;
+  align-items: center;
+  background-color: rgba(242, 245, 247, 1);
+}
+
+.confirmationText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  font-size: 16px;
+  color: rgba(36, 53, 115, 1);
+}
+
+.confirmationLogo {
+  height: 80px;
+  position: relative;
+  width: 80px;
+}
+
+.confirmationLogo img {
+  position: absolute;
+}
+
+.checkmark {
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 15px;
+}
+
+.userInfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.userInfoCard {
+  background-color: white;
+  padding: 15px;
+  width: 45%;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.title {
+  display: flex;
+  color: rgba(36, 53, 115, 1);
+  font-weight: 700;
+  margin-bottom: 20px;
+  column-gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.orderInfo {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.orderInfo_title img {
+  margin-right: 10px;
+}
+
+.orderInfo_total {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.orderInfo_total_line {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.orderInfo_total_line span {
+  width: 220px;
+}
+
+.gohome {
+  background-color: rgba(0, 174, 28, 1);
+  width: 220px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+}

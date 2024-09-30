@@ -1,0 +1,20 @@
+.contactInfoform {
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.contactInfoform div {
+  column-gap: 50px;
+  width: 80%;
+  display: flex;
+}

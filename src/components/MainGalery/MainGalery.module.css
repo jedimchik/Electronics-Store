@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.productList {
+  width: 100%;
+  padding-block: 30px;
+  padding-inline: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+
+  background-color: rgba(242, 245, 247, 1);
+}

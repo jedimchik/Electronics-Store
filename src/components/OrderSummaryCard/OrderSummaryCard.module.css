@@ -1,0 +1,26 @@
+.OrderSummaryCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.OrderSummaryCard_main {
+  display: flex;
+}
+
+.OrderSummaryCard_img {
+  width: 200px;
+  height: 200px;
+}
+
+.OrderSummaryCard_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+
+  font-family: Inter;
+  line-height: 20px;
+  text-align: left;
+}

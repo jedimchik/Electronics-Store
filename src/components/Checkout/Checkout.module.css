@@ -1,0 +1,22 @@
+.content {
+  padding-block: 30px;
+  padding-inline: 240px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: rgba(242, 245, 247, 1);
+}
+
+.navigation {
+  display: flex;
+  column-gap: 30px;
+}
+
+.navigation {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.disabledNav {
+  color: rgb(128, 128, 128);
+}
